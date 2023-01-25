@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency, découvrez votre prochaine destination</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- En tête  -->
+    <header>
+        <div class="container dflex space-between align-center">
+            <a href="index.html"><img src="images/logo-light.png" alt="Travel Agency"></a>
+            <ul class="dflex">
+                <li><a href="#">Europe</a></li>
+                <li><a href="#">Asie</a></li>
+                <li><a href="#">Afrique</a></li>
+                <li><a href="#">Amérique du nord</a></li>
+                <li><a href="#">Amérique du sud</a></li>
+            </ul>            
+        </div>
+    </header>
+    <!-- Section bienvenue  -->
+    <section class="bienvenue">
+            <h1>Bienvenue sur le site de Travel agency</h1>
+            <h2 class="slogan">Découvrez la prochaine <br> destination de vos rêves</h2>
+            <p class="intro">Quisque in augue. Donec aliquam magna nonummy enim. Proin blandit imperdiet sem. Donec malesuada, urna sit amet varius aliquam, nibh tortor laoreet turpis, eget sodales felis  nibh ac sapien. Fusce eget augue. Integer sed risus. Aenean mollis. Donec facilisis egestas quam. Duis bibendum augue  id mauris.</p>
+            <p>
+                <a href="#" class="btn">Réservez</a>
+            </p>
+    </section>
+    <!-- Section Articles  -->
+    <section class="articles">
+        <h2>Nos derniers articles</h2>
+        <div class="container dflex space-between">
+            <article>
+                <img src="images/florence.jpg" alt="Florence, capitale de la Toscane">
+                <h3>Florence, capitale de la Toscane</h3>
+                <p>Le centre historique de Florence est un musée à ciel ouvert, avec sans doute la plus grande concentration de chefs-d’œuvre artistiques au monde !</p>
+                <a href="#" class="btn-small">Lire la suite</a>
+            </article>
+            <article>
+                <img src="images/rio.jpg" alt="Rio de Janeiro, la ville merveilleuse">
+                <h3>Rio de Janeiro, la ville merveilleuse</h3>
+                <p>Voici une sélection des sites à voir ou des activités à faire lors de votre prochain voyage à Rio. Devant la baie de Guanabara en janvier 1502, des navigateurs portugais...</p>
+                <a href="#" class="btn-small">Lire la suite</a>
+            </article>
+            <article>
+                <img src="images/shanghai.jpg" alt="Que visiter à Shanghai ?">
+                <h3>Que visiter à Shanghai ?</h3>
+                <p>Shanghai ne ressemble pas vraiment au reste de la Chine. Inutile d'y chercher des palais d'Été, des temples nimbés de brume ou d'incroyables bouddhas à flanc de colline...</p>
+                <a href="#" class="btn-small">Lire la suite</a>
+            </article>
+        </div>
+    </section>
+    <!-- Section Agence -->
+    <section class="agence">
+        <div class="container dflex">
+            <div class="col">
+                <img src="images/agence.jpg" alt="Notre agence de voyage">
+            </div>
+            <div class="col">
+                <h2>Notre agence</h2>
+                <p>Pellentesque mi dui, molestie sit amet, adipiscing id, iaculis quis, arcu. Nulla tellus sem, viverra eu, ultricies ac, mattis et, velit. Maecenas quis magna. Ut viverra nisl eu ipsum. Maecenas rhoncus. Duis mattis nisi nec sapien. Nullam eu ante non enim tincidunt fringilla. Integer leo. Duis eget enim.</p>
+                <p>Curabitur felis erat, tempus eu, placerat et, pellentesque sed, purus. Sed sed diam. Nam nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aenean risus est, porttitor vel, placerat sit amet, vestibulum sit amet, nibh. Ut faucibus justo quis nisl. Etiam vulputate, sapien eu egestas rutrum, leo neque luctus dolor, sed hendrerit tortor metus ut dui. Etiam id pede porttitor turpis tristique lacinia. Suspendisse potenti.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras gravida sem ut massa. Quisque accumsan porttitor dui. Sed interdum, nisl ut consequat tristique, lacus nulla porta massa, sed imperdiet sem nunc vitae eros.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Section contact -->
+    <section class="contact">
+        <div class="container dflex">
+            <div class="col">
+                <img src="images/avion.png" alt="Avion">
+            </div>
+            <div class="col">
+                <h2>Nous contacter</h2>
+                <form action="" method="post">
+                    <input type="text" name="nom" placeholder="Nom">
+                    <input type="text" name="prenom" placeholder="Prénom">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="tel" name="telephone" placeholder="Téléphone">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+                    <p><button class="btn-small" type="submit">Envoyer</button></p>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container dflex space-between">
+            <div class="col-30">
+                <img src="images/logo-dark.png" alt="Travel Agency">
+            </div>
+            <div class="col-30">
+                <h3>Informations</h3>
+                <ul>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Conditions de vente</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-30">
+                <h3>Nous suivre</h3>
+                <div class="social dflex ">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/sebcode.fr"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@seb-code"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://twitter.com/sebcode_fr"><i class="fa-brands fa-twitter"></i></a>                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="copyright">&copy; 2022 - <a href="https://www.seb-code.fr/">Seb Code</a> - Tous les droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html>
